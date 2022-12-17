@@ -27,6 +27,19 @@ class Person {
   // }
   Person({this.age = 0, this.name = 'Nameless'});
 
+  Person.person30(this.name) {
+    this.age = 30;
+  }
+
+  Person.person40(String name) {
+    this.age = 40;
+    this.name = name;
+  }
+
+  Person.personName(this.age) {
+    this.name = 'John Doe';
+  }
+
   // Methods
   @override
   String toString() => '$name $age $_bio';
