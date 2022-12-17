@@ -19,6 +19,13 @@ class Person {
   set bio(String text) => _bio = text;
 
   // Constructors
+  // Person(int age, String name) {
+  //   print('Constructor');
+
+  //   this.age = age;
+  //   this.name = name;
+  // }
+  Person({this.age = 0, this.name = 'Nameless'});
 
   // Methods
   @override
