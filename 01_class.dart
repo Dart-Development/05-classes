@@ -6,8 +6,8 @@ main() {
 
   person
     ..name = 'Brayan'
-    ..age = 27
-    ..bio = 'Was born somewhere';
+    ..age = 27;
+  // ..bio = 'Was born somewhere'; // private
 
   // .toString() is implicit when using print
   print(person);
