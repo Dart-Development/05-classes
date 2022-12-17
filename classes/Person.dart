@@ -5,9 +5,18 @@ class Person {
   // Properties
   String? name;
   int? age;
-  String? _bio = "Hi, I'm a private property.";
+  String _bio = "Hi, I'm a private property.";
 
-  // Get & Sets
+  // Get & Sets: methods to simulate we have a property
+  // String get bio {
+  //   return _bio.toUpperCase();
+  // }
+  String get bio => _bio.toUpperCase();
+
+  // set bio(String text) {
+  //   _bio = text;
+  // }
+  set bio(String text) => _bio = text;
 
   // Constructors
 
